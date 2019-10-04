@@ -5,9 +5,11 @@ My CircuitPython Assignments.
  
  
  
- #LED Fade
+ #Hello Circuit Python
  
-  This is an LED Fade
+ ##Smaller Header
+ 
+ 
 
 
 
