@@ -24,6 +24,9 @@
    
  
  
+ 
+ 
+ 
  ## CircuitPython Servo (With Capacitive Touch)
  ### Description
  In this assignment, we used CircuitPythons's "Capacitive Touch" to make a Servo turn. When we touch a wire, then the servo will rotate a certain direction. If we were to touch another wire, then the Servo would rotate the other direction.
@@ -31,6 +34,24 @@
  This lesson, we learned how to use PWM, as well as re-familiarizing ourselves with how CircuitPython Works. Capacitive touch was relatively easy to become accustomed to (Touch.io)
  ### Images and Diagrams
   This is a Fritzing diagram of the assignment
+  
+  
+  
+  
+  
+  ## CircuitPython LCD
+  ### Description
+   In this assignment, we had to print a button press on an LCD screen. On top of that, we had to add or subtract the number per press based on if a switch on the breadboard was flipped or not. On flip of the switch would count up when the button was pressed, and the otehr would count down when the button was pressed
+   
+   ### Lessons Learned
+   In this assignment, we re-familiarized ourselves with how to wire a switch, as well as a LCD Sceren. Fortunately for us, the Metro Express has two LCD Backpack friendly ports for SDA and SCL. This means that we did not have to set any Analog Pins for the LCD Backpack
+   
+   ### Images and Diagrams
+   
+   
+   ## CircuitPython PhotoInterrupters
+  
+ 
 
  
  
