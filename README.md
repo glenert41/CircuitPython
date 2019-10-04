@@ -24,6 +24,15 @@
    
  
  
+ ## CircuitPython Servo (With Capacitive Touch)
+ ### Description
+ In this assignment, we used CircuitPythons's "Capacitive Touch" to make a Servo turn. When we touch a wire, then the servo will rotate a certain direction. If we were to touch another wire, then the Servo would rotate the other direction.
+ ### Lessons Learned
+ This lesson, we learned how to use PWM, as well as re-familiarizing ourselves with how CircuitPython Works. Capacitive touch was relatively easy to become accustomed to (Touch.io)
+ ### Images and Diagrams
+  This is a Fritzing diagram of the assignment
+
+ 
  
 
 
