@@ -5,6 +5,11 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
  ## Hello Circuit Python (and Metro and Mu)
  
  ### Description
@@ -12,6 +17,10 @@
  
  ### Lessons Learned
   This assignment was essentailly and introduction to Metro, CircuitPython, and Mu. I learned that the logic for your code will be nearly identical for an LED Fade across languages, but the syntax can be wildly different; as in the contrast between Arduino and CircutPython. Also, I learned that CircuitPython requires much more libraries to be imported than Arudino
+  
+ ### Images and Diagrams
+ This is a Fritzing of the Wiring
+ Ex: ![Fritzing](/images/logo.png)
    
  
  
