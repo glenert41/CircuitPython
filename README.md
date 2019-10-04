@@ -1,13 +1,16 @@
 # CircuitPython
-My CircuitPython Assignments. 
- These are my CircuitPython assignments from Engineering 3
+   My CircuitPython Assignments. 
+   These are my CircuitPython assignments from Engineering 3
  
  
  
  
- #Hello Circuit Python
+ ## Hello Circuit Python
  
- ##Smaller Header
+ ### Description
+ In this assignment, we are introduced to CircuitPython, Metro, and Mu. The objective is to make an LED fade from 0% to 100% brightness and back down.
+   
+ 
  
  
 
