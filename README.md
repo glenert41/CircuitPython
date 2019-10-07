@@ -55,7 +55,7 @@
 In this assignment, we had to read interrupts in a photointerrupter, and print the ammount of interrupts every 4 seconds, WITHOUT using time.sleep().
    
  ### Lessons Learned
- I learned about time.monotonic in this assignment and used it to count the amount of seconds (intervals)
+ I learned about time.monotonic in this assignment and used it to count the amount of seconds (intervals). We also added a switch that only adds once the photointeruppter reading is high then low, essentially functioning as a safeguard for the counter.
 
    
  ### Images and Diagrams
