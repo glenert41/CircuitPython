@@ -56,13 +56,20 @@ In this assignment, we had to read interrupts in a photointerrupter, and print t
    
  ### Lessons Learned
  I learned about time.monotonic in this assignment and used it to count the amount of seconds (intervals). We also added a switch that only adds once the photointeruppter reading is high then low, essentially functioning as a safeguard for the counter.
-
    
  ### Images and Diagrams
    
 
+ ## CircuitPython Distance Sensor
  
- 
+  ### Description
+In this assignment, we had to read the distance from an UltraSonic Distance Sensor (HC-SR04). After we had read the distance, we were to turn the onboard NEOPIXEL LED along a spectrum to a color that represents the distance. The distance is to also be printed to the Serial Monitor.
+   
+ ### Lessons Learned
+This assignment taught me quite a deal about raw problem solving and Critical Thinking. The distance sensor itself was rather easy and straightforward; however, the color spectrum was the more difficult part of the project. I solved the problem by spending some time and thinking about what i want the colors to be at what distance, and how that could be mapped. I ended up using two different mapping regions as you had to bypass the halfway (15cm) distance.
+
+   
+ ### Images and Diagrams
 
 
 
