@@ -70,6 +70,19 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
 
    
  ### Images and Diagrams
+ 
+ 
+ 
+ 
+ ## Classes, Objects, and Modules
+ 
+ ### Description
+ In this assignment, we leared about Classes, Objects, and Modules in CircuitPython. In the assignment itself, we had to create a library that would set an LED to a certain color when the main called for it. You fed the main certain pins, and the LED would turn itself through colors, and at the end it would fade in and out like a rainbow.
+ 
+ ### Lessons Learned
+ In this, we were introduced to Classes, Objects, and Modules. It took quite a bit of effort to get the syntax of the library correct. Eventually, we were able to decude how it was done. We also had to use PWM pins and self in order for the LEDs to turn on. The most frustrating issue was the learning curve for Self. Self must be added in your library in order to allow initialized variables to be accessed and referenced later in your library. 
+ 
+ ### Images and Diagrams
 
 
 
