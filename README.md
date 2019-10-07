@@ -49,6 +49,12 @@
    ### Images and Diagrams
    
    
+   
+   
+   
+   
+   
+   
    ## CircuitPython PhotoInterrupters
   
  ### Description
@@ -60,6 +66,10 @@ In this assignment, we had to read interrupts in a photointerrupter, and print t
  ### Images and Diagrams
    
 
+
+
+
+
  ## CircuitPython Distance Sensor
  
   ### Description
@@ -70,6 +80,10 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
 
    
  ### Images and Diagrams
+ 
+ 
+ 
+ 
  
  
  
@@ -88,4 +102,28 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
 
 
 
+
+
+
+## Hello VS Code
+
+### Description
+   In this assignment, we were introduced to Visual Studio (VS) Code. We opened VS code, created a small file, and pused that file into our CircuitPython Github Repository.  
+   
+  ### Lessons Learned
+  Although this assignment is very straightforward on the surface level, it was actually rather difficult. VS Code does take a decent amount of familiarization in order to make sense. On top of that, I was given errors that didn't seem to have much reasoning. Eventually, I was able to work through the errors. Makes sure that your Metro is plugged in and that you have installed Python
+  
+  ### Images and Diagrams
+  
+  
+ ## FancyLED
+ 
+ ### Description
+ 
+ In FancyLED, we had to create a library in FancyLED that had various modules that each made a set of 6 LEDs do different tasks. For example, there was a blink (all on or all off) module and a chase (one on, then off, then the next on while the intial was being turned off) module.
+ 
+ ### Lessons Learned
+ The biggest lesson I learned from this assignment was that it can be, and is likely usally, beneficial to look back at prior asssignments and work for help on your current work. More specifically, it behooved me to look at the RGB library from the "Classes, Modules, and Objects" assignment. 
+ 
+ ### Images and Diagrams
 
