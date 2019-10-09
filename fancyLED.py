@@ -1,6 +1,6 @@
 import digitalio #pylint: disable-msg=import-error
 import board #pylint: disable-msg=import-error
-import time
+import time 
 import random
 
 class FancyLED:
