@@ -20,7 +20,8 @@
   
  ### Images and Diagrams
  This is a Fritzing of the Wiring
- Ex: ![Fritzing](/images/logo.png)
+
+<img src="MyMedia/LED_Fade_Fritzing_bb.png" width="512">
    
  
  
