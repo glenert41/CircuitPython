@@ -128,4 +128,9 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
  The biggest lesson I learned from this assignment was that it can be, and is likely usally, beneficial to look back at prior asssignments and work for help on your current work. More specifically, it behooved me to look at the RGB library from the "Classes, Modules, and Objects" assignment. 
  
  ### Images and Diagrams
+ 
+ MyMedia/FancyLED_bb.png
+ 
+ <img src="MyMedia/FancyLED_bb.png" width="512">
+ 
 
