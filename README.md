@@ -36,6 +36,9 @@
  ### Images and Diagrams
   This is a Fritzing diagram of the assignment
   
+  <img src="MyMedia/Servo_bb.png" width="512">
+  
+  
   
   
   
