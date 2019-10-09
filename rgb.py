@@ -10,15 +10,15 @@ class RGB:
 
 
         self.pwm_r = pulseio.PWMOut(r, frequency=1000, duty_cycle=0)
-        self.pwm_g = pulseio.PWMOut(g, frequency=1000, duty_cycle=0)  #test
-        self.pwm_b = pulseio.PWMOut(b, frequency=1000, duty_cycle=0)
+        self.pwm_g = pulseio.PWMOut(g, frequency=1000, duty_cycle=0)  #sets the PWM pins
+        self.pwm_b = pulseio.PWMOut(b, frequency=1000, duty_cycle=0)    
 
     def change_name(self, newName):
         self.name = newName
 
     def change_pins(self, r, g, b):
         self.r = r
-        self.g = g
+        self.g = g    #Sets the input pins given to us by the main
         self.b = b
 
     def red(self):
