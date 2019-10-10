@@ -1,6 +1,7 @@
 #Graham Lenert
 #CircuitPython Distance Sensor
-
+#This assignment takes the distance from an UltraSonic Sensor,
+    #and fades an LED throughout the rainbow to a corresponing color
 
 
 import board
