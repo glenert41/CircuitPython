@@ -1,46 +1,38 @@
+#Graham Lenert
+#Servo Control
+#This assignment makes a servo turn when a wire is touched, 
+    # and turns it another way when another wire is touched
 
 import board
-import neopixel
-#import math
-import time
-#import digitalio
-#import adafruit_bus_device
-import adafruit_hcsr04
+import digitalio
+import analogio
+import time             #importing libraries
 import simpleio
-
-sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D6, echo_pin=board.D5)
-#simpleio.map_range(x, in_min, in_max, out_min, out_max)
-
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness = .1)
+import pulseio
+from adafruit_motor import servo
+import touchio
 
 
+#sets the PWM pin for servo
+pwm = pulseio.PWMOut(board.D9, duty_cycle=2 ** 15, frequency=50)
+touch_A1 = touchio.TouchIn(board.A1)  #activates the touch wires
+touch_A2 = touchio.TouchIn(board.A2)
 
-r = 0
-g = 0
-b = 0
-
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm) q   #sets the servo pin to the pwm pin
+servo_angle = 0   #starts servo at 0
 
 while True:
+    #if wire 1 touched, turn servo
+    if touch_A1.value and servo_angle < 180:
+        print("touched a1")
+        servo_angle += 5
+        my_servo.angle = servo_angle
 
-    try:
-        print((sonar.distance,))
-        if sonar.distance <= 20:
+    #if wire 2 touched, turn servo
+    if touch_A2.value and servo_angle > 0:
+        print("touched a2")
+        servo_angle -= 5
+        my_servo.angle = servo_angle
 
-            r = simpleio.map_range(sonar.distance, 0,20,255,0)
-            b = simpleio.map_range(sonar.distance, 5,20,0,255)
-            g = simpleio.map_range(sonar.distance, 20,35,0,255)
-
-        else:
-            r = simpleio.map_range(sonar.distance, 0,20,255,0)
-            b = simpleio.map_range(sonar.distance, 35,20,0,255)
-            g = simpleio.map_range(sonar.distance, 20,35,0,255)
-
-        dot.fill((int(r),int(g),int(b)))
-    except RuntimeError:
-        print("McDelivery")
-
-
-
-
-
-    time.sleep(0.1)
+    time.sleep(0.01) #sleep for execution safety
