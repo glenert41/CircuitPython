@@ -1,3 +1,9 @@
+#Graham Lenert
+#FancyLED
+#In this assignment, we set out a grouping of 6 LEDS, and wrote functions to make cool patterns and visuals.
+
+
+
 import digitalio #pylint: disable-msg=import-error
 import board #pylint: disable-msg=import-error
 import time  #imports time
