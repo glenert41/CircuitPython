@@ -106,7 +106,7 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
 
 
 
-
+<img src="MyMedia/Untitled%20Sketch%202_bb.png" width="512">
 
 
 
