@@ -54,7 +54,7 @@
    
    
    
-   
+   <img src="MyMedia/LCDWiring.png" width="512">
    
    
    
