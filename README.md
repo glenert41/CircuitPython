@@ -119,9 +119,6 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
   ### Lessons Learned
   Although this assignment is very straightforward on the surface level, it was actually rather difficult. VS Code does take a decent amount of familiarization in order to make sense. On top of that, I was given errors that didn't seem to have much reasoning. Eventually, I was able to work through the errors. Makes sure that your Metro is plugged in and that you have installed Python
   
-  ### Images and Diagrams
-  
-  
  ## FancyLED
  
  ### Description
