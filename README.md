@@ -87,7 +87,7 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
    
  ### Images and Diagrams
  
-  <img src=" MyMedia/Distance_Sensor.pngg" width="512">
+  <img src=" MyMedia/Distance_Sensor.png" width="512">
 
  
  
