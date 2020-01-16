@@ -147,7 +147,7 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
  ### Lessons Learned
   In this assignment, I learned that planning your code instead of just wriitng it and troubleshooting can really help. At first, I just attempted it blindy and thought I would just figure it out. However, that did not work very well... at all. So, I took a step back from my keyboard, and really thought through the code and what lines I needed. It was very easy to transpose my new information on to the keyboard.
   
- ### Imagess and Diagrams
+ ### Images and Diagrams
  
  
 
