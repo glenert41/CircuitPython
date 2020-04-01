@@ -164,5 +164,12 @@ We used sin and cos to help move the circle around the screen. We would increase
  
  ## Processing to CircuitPython
  
+ ### Description
+ The goal of this assignment was the make a GUI on Processing, and transpose information, based on the location of your cursor, to the Metros. Then, move two servos that correspond to the location of your cursor.
+ ### Lessons Learned
+ Once again, I do not have access to the code since I didn't upload it before school was suspended. So I will go off of what I remember. The lesson that I learned from this was about how to troubleshoot. I spent a week or so trying to get the decoding from the Processing onto the Metro adn CircuitPython. This ended up being the trickiest part of the assignment. We eventually surmounted this obstacle by working together. Me, and my 3 neighbors, all sat around the computer, and brainstormed. For two days, we all gave our thoughts and ideas. Eventually, we were able to solve the decoding issues.
+ 
+ For a more material lesson learned, we learned to limit the amount of variables in your code. This sounds easy, but we ended up having 2 different variables for the coordinates, one a string and one an int; when we could've just said str(variable) and int(variable).
+ ### Images and Diagrams
  
 
