@@ -145,7 +145,9 @@ This assignment taught me quite a deal about raw problem solving and Critical Th
    In this assignment we were supposed to make a circle bounce around a small window.
    
  ### Lessons Learned
-  In this assignment, I learned that planning your code instead of just wriitng it and troubleshooting can really help. At first, I just attempted it blindy and thought I would just figure it out. However, that did not work very well... at all. So, I took a step back from my keyboard, and really thought through the code and what lines I needed. It was very easy to transpose my new information on to the keyboard.
+  In this assignment, I learned that planning your code instead of just writng it and troubleshooting can really help. At first, I just attempted it blindy and thought I would just figure it out. However, that did not work very well... at all. So, I took a step back from my keyboard, and really thought through the code and what lines I needed. It was very easy to transpose my new information on to the keyboard. 
+  
+We used sin and cos to help move the circle around the screen. We would increase the x and y coordinates by their respective sin and cos values. Once the x or y values were too high or too low (the circle his the wall), we multiplied the sin and cos by -1, which flipped the direction that the circle would go. 
   
  ### Images and Diagrams
      
