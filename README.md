@@ -153,6 +153,14 @@ We used sin and cos to help move the circle around the screen. We would increase
      
    
  ## CircuitPython to Processing
+  
+ ### Description
+ In this assignment, we had to turn a potentiometer, take that value from CircuitPython, and move it over to Processing. In processing, we had to turn an animated dial up coordinated with the real potentiometer; similar to a speedometer. 
+ ### Lessons Learned
+  The biggest take away for me from this assignment was not hard coding this. I instantly thought that I could just take the values from the potentiometer and hard code some coordinating lines on the speedometer when the potentiometer is within the threshold. However, I felt that this was not up to standard. So, this taught me that even if you think you know a way to do a task, it is not always the best way; it is smartest to take some time to develop different solutions to the same problem.
+  
+ My solution was once again using sin and cos to make the line on the speedometer turn. Our speedometer went from horizontal left to horizontal right (Due west to Due East). For this, we also made it so that horizontal left was equal to 0 on the potentiometer, and 180 was horizontal right. Then we multipled a constant by sin or cos of the potentiometer input to create the coordinates. For example, (-150cos(theta), 150sin(theta)). The negative before the cosine helped keep the dial within the range we wanted it visually. 
+ ### Images and Diagrams
  
  ## Processing to CircuitPython
  
